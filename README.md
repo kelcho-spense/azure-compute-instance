@@ -2,7 +2,19 @@
 
 ![](./diagrams/poster.png)
 
-To deploy your API to Azure using Azure Container Registry (ACR), follow these steps:
+Easily deploy your Express API to Azure using Docker, Azure Container Registry (ACR), and Azure Container Instances (ACI). This guide walks you through the entire process, from creating a Docker image to running your API in Azure.
+
+## Features
+- Dockerized Deployment: Create a Docker image for your API using a Dockerfile.
+- Azure Container Registry (ACR): Push your Docker image to Azure's secure container registry.
+- Azure Container Instances (ACI): Deploy and run your API as a lightweight, standalone container in Azure.
+
+## Prerequisites
+Azure CLI installed locally
+Docker installed and configured
+Azure account with sufficient permissions
+
+## Follow these steps:
 
 - Create a Dockerfile
 
